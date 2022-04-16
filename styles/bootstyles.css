@@ -1,0 +1,55 @@
+body{
+    background-color:darkkhaki;
+}
+.headcenter{
+    text-align:center;
+}
+.headstyle{
+    font-family:monospace;
+}
+.homebg{
+    background-image:url(../images/bluebackground.jpg);
+    background-size:cover;
+}
+.anothercolor{
+    color:darkviolet
+}
+a:hover{
+    color:chartreuse;
+}
+
+.common{
+    background-color: #cccccc;
+    border: solid 2px white;
+    position: absolute;
+}
+
+.resizableheader{
+    resize: horizontal;
+    overflow:auto;
+    /* would auto work for expanding and contracting horizontally as the page is resized?*/
+}
+
+.resizablebody{
+    resize:both;
+}
+
+.resizablefooter{
+    resize:horizontal;
+    overflow:auto;
+}
+.footertextalign{
+    text-align: center;
+}
+
+.tableauleft{
+    padding: left 100px;
+    padding: right 100px;
+}
+
+.tableaufit{
+    object-fit: scale-down;
+}
+.footerstyle{
+    font-family:cursive;
+}
